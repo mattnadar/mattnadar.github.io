@@ -165,4 +165,6 @@ div.sage-image{
 
 img.sage {
   border-radius: 10%;
+  height: 250px;
+  margin-bottom: 100px;
 }
