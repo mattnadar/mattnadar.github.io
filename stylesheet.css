@@ -62,7 +62,7 @@ div.opener {
 div.greeting {
   color: #463f3a;
   margin-top: 30px;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -71,6 +71,7 @@ div.intro {
   margin-top: 30px;
   margin-left: 400px;
   margin-right: 400px;
+  font-size: 35px;
 }
 
 /* Skills Section */
@@ -146,6 +147,7 @@ div.about-info {
   margin-left: 500px;
   margin-right: 500px;
   background-color: #463f3a;
+  font-size: 20px;
 }
 
 h2 {
@@ -154,4 +156,13 @@ h2 {
   font-size: 40px;
 }
 
+div.sage-image{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 
+img.sage {
+  border-radius: 10%;
+}
