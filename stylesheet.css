@@ -5,6 +5,7 @@
 * {
   font-family: "Lato";
   /*background-color: #f4f3ee;*/
+  scroll-behavior: smooth;
 }
 body {
   background-color: #f4f3ee;
@@ -82,17 +83,11 @@ h1 {
   color: #f4f3ee;
 }
 
-div.language-header{
+div.language-header, div.tools-header {
   text-align: center;
   color:#f4f3ee;
-  font-size: 20px;
+  font-size: 30px;
   
-}
-
-div.tools-header{
-  text-align: center;
-  color:#f4f3ee;
-  font-size: 20px;
 }
 
 div.skillslanguagewrapper {
@@ -101,13 +96,39 @@ div.skillslanguagewrapper {
 }
 
 div.logo {
- margin-top: 100px;
- width: 50%;
+ margin: 20px;
  text-align: center;
- display: inline-block;
 }
 
 div.languages {
   color: #f4f3ee;
-  display: inline-block; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
+div.tools {
+  color: #f4f3ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+div.language-name, div.tool-name {
+  color: #f4f3ee;
+  margin-top: 10px;
+}
+
+div.languages-section,
+div.tools-section {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+div.skills-footer{
+  height: 500px;
+}
+
