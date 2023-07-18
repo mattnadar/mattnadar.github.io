@@ -334,3 +334,49 @@ div.trumpet-wrapper img {
   height: 500px;
   border-radius: 10px;
 }
+
+/* FOOTER */
+
+div.footer-wrapper {
+  background-color: #463f3a;
+  margin-top: 20px;
+  height: 75px;
+  left: 0;
+  right: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper a {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+
+}
+
+.footer-wrapper img {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  height: auto;
+  object-fit: contain;
+  display: flex;
+  text-align: center;
+
+}
+
+.footer-wrapper img:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  height: auto;
+  object-fit: contain;
+  display: flex;
+  transform: translateY(-30%);
+}
+
