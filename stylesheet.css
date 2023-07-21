@@ -112,6 +112,11 @@ div.languages {
   flex-wrap: wrap;
 }
 
+div.language-info {
+  color:#463f3a;
+  text-align: center;
+}
+
 div.tools {
   color: #f4f3ee;
   display: flex;
@@ -130,6 +135,11 @@ div.languages-section,
 div.tools-section {
     flex-basis: 50%;
     padding: 20px;
+}
+
+div.tools-info {
+  color:#463f3a;
+  text-align: center;
 }
 
 /* About Section */
