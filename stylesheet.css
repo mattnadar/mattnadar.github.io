@@ -72,6 +72,21 @@ div.intro {
   font-size: 35px;
 }
 
+.headshot {
+  margin: 25px 0 0 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.headshot img {
+  border: solid #e0afa0 5px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  width: 400px;
+}
 /* Skills Section */
 div.skillwrapper {
   background-color: #f4f3ee;
@@ -233,6 +248,7 @@ div.tejp-info {
 }
 
 .tejp-image-wrapper img {
+  border: solid #e0afa0 5px;
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -336,6 +352,7 @@ div.trumpet-wrapper img {
   width: 330px;
   height: 500px;
   border-radius: 10px;
+  border: solid #e0afa0 5px;
 }
 
 /* FOOTER */
