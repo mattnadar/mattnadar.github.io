@@ -68,9 +68,7 @@ div.greeting {
 
 div.intro {
   text-align: center;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 15px 25% 0 25%;
   font-size: 35px;
 }
 
@@ -154,8 +152,7 @@ div.aboutwrapper {
 div.about-info {
   color: #f4f3ee;
   text-align: center;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0px 25% 0 25%;
   font-size: 30px;
 }
 
@@ -218,9 +215,7 @@ div.tejp-info {
   text-align: center;
   color: #f4f3ee;
   font-size: 20px;
-  margin-top: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 15px 25% 0 25%;
 }
 
 .tejp-image-wrapper {
@@ -234,10 +229,11 @@ div.tejp-info {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
 }
 
 .tejp-image-wrapper img {
-  width: 50%;
+  width: 100%;
   height: auto;
   object-fit: contain;
   display: flex;
@@ -263,9 +259,7 @@ div.colorguard-info {
   text-align: center;
   color: #463f3a;
   font-size: 20px;
-  margin-top: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 15px 25% 0 25%;
 }
 
 
@@ -309,9 +303,7 @@ div.music-info {
   text-align: center;
   color: #463f3a;
   font-size: 20px;
-  margin-top: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 15px 25% 0 25%;
 }
 
 div.music-info a {
