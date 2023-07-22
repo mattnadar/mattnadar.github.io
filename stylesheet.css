@@ -11,6 +11,7 @@ body {
   background-color: #f4f3ee;
   margin: 0;
 }
+
 /* NavBar */
 ul {
   margin-bottom: 20px;
@@ -400,5 +401,182 @@ div.footer-wrapper {
   transform: translateY(-30%);
 }
 
-/* Arrow */
+/* Mobile Formatting */
+
+@media only screen and (max-width: 767px) {
+
+  /* NavBar */
+  
+  ul {
+    margin-bottom: 20px;
+    margin-left: -25px;
+  }
+
+  nav {
+    background-color: #f4f3ee;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    
+  }
+
+  nav li {
+    display: inline-block;
+    flex: none;
+    border: transparent;
+    margin-bottom: 0;
+  }
+
+  nav li a {
+    color: #e0afa0;
+    position: relative;
+    
+    font-size: 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav li a:hover {
+    color: #9f7c72;
+    transition: color 0.5s;
+  }
+
+  div.navLine {
+    bottom: 0;
+    border-bottom: solid 2px #e0afa0;
+    margin: 0;
+  }
+
+
+  /* First section of Page */
+  
+  div.opener {
+    background-color: #f4f3ee;
+    height: 100vh;
+  }
+  div.greeting {
+    color: #463f3a;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  div.intro {
+    text-align: center;
+    margin: 15px 5% 0 5%;
+    font-size: 15px;
+  }
+
+  .headshot {
+    margin: 25px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .headshot img {
+    border: solid #e0afa0 5px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    width: 80%;
+  }
+
+  /* About Section */
+
+  div.aboutwrapper {
+    background-color: #463f3a;
+    left: 0;
+    right: 0;
+    height: 100vh;
+  }
+
+  div.about-info {
+    color: #f4f3ee;
+    text-align: center;
+    margin: 0px 5% 0 5%;
+    font-size: 15px;
+  }
+
+  h2 {
+    padding-top: 25px;
+    text-align: center;
+    color:#f4f3ee;
+    font-size: 40px;
+  }
+
+  /* Skills Section */
+  div.skillwrapper {
+    background-color: #f4f3ee;
+    left: 0;
+    right: 0;
+    height: 100vh;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #463f3a;
+  }
+
+  div.language-header, div.tools-header {
+    text-align: center;
+    color:#463f3a;
+    font-size: 20px;
+  }
+
+  div.skillslanguagewrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.logo {
+  margin: 20px;
+  text-align: center;
+  }
+
+  div.languages {
+    color: #f4f3ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  div.language-info {
+    color:#463f3a;
+    text-align: center;
+  }
+
+  div.tools {
+    color: #f4f3ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+  div.language-name, div.tool-name {
+    color: #463f3a;
+    margin-top: 10px;
+  }
+
+  div.languages-section,
+  div.tools-section {
+      flex-basis: 50%;
+      padding: 20px;
+  }
+
+  div.tools-info {
+    color:#463f3a;
+    text-align: center;
+  }
+
+
+}
 
