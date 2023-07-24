@@ -426,17 +426,17 @@ div.footer-wrapper {
     display: inline-block;
     flex: none;
     border: transparent;
-    margin-bottom: 0;
+    margin: 0;
   }
 
   nav li a {
     color: #e0afa0;
     position: relative;
-    
-    font-size: 10px;
+    font-size: 9px;
     margin-bottom: 0;
     text-decoration: none;
     font-weight: bold;
+    white-space: nowrap;
   }
 
   nav li a:hover {
