@@ -35,8 +35,8 @@
 }
 
 .loading-bar {
-  width: 200px;
-  height: 20px;
+  width: 100px;
+  height: 10px;
   background-color: #ccc;
   margin-top: 20px;
 }
