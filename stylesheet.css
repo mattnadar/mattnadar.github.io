@@ -134,6 +134,30 @@ div.intro {
   width: 400px;
 }
 /* Skills Section */
+div.libraries-header {
+  text-align: center;
+  color: #463f3a;
+  font-size: 30px;
+}
+
+div.libraries {
+  color: #f4f3ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.library-name {
+  color: #463f3a;
+  margin-top: 10px;
+}
+
+div.libraries-section {
+  flex-basis: 50%;
+  padding: 20px;
+}
+
 div.skillwrapper {
   background-color: #f4f3ee;
   left: 0;
