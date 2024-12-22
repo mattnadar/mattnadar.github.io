@@ -595,22 +595,6 @@ div.footer-wrapper {
     font-size: 40px;
   }
 
-  div.course-list {
-    display: flex;
-    justify-content: center;
-}
-
-div.course-list ul {
-    list-style-position: inside; /* Align bullets with content */
-    text-align: center; /* Center content */
-    padding: 0; /* Remove default padding */
-    margin: 0 auto; /* Center the list itself */
-}
-
-div.course-list ul li {
-    color: #f4f3ee;
-    margin: 5px 0; /* Adjust spacing between items */
-}
 
   /* Skills Section */
   div.skillwrapper {
