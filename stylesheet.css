@@ -8,7 +8,6 @@
   scroll-behavior: smooth;
 }
 
-
 body {
   background-color: #f4f3ee;
   margin: 0;
@@ -211,6 +210,13 @@ h3 {
   color:#f4f3ee;
   font-size: 35px;
 }
+
+h4 {
+  padding-top: 25px;
+  text-align: center;
+  color:#333333;
+  font-size: 40px;
+}
 /* Commenting out sage for now lmao
 div.sage-image{
   margin-top: 20px;
@@ -227,6 +233,68 @@ img.sage {
 */ 
 
 
+/* Research Section */
+div.research-wrapper{
+  background-color: #e0e4cc;
+  left: 0;
+  right: 0;
+  padding: 50px 0;
+}
+
+div.research-header {
+  text-align: center;
+  color: #333333;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+div.thral-info {
+  position: relative;
+  text-align: center;
+  color: #333333;
+  font-size: 30px;
+  margin: 15px 20%;
+  margin-bottom: 30px;
+}
+
+.research-image-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.research-image-wrapper img {
+  border: solid #333333 5px;
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Center the button container */
+.download-btn-container {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Styling for the download button */
+.download-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for the button */
+.download-btn:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
 /* Projects Section */
 
 div.projects-wrapper {
