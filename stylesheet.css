@@ -7,50 +7,7 @@
   /*background-color: #f4f3ee;*/
   scroll-behavior: smooth;
 }
-/* Loading Bar Stuff */
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.icon {
-
-  border-radius: 50%;
-  animation: bounce 1.5s infinite alternate;
-  
-}
-
-.loading-bar {
-  width: 100px;
-  height: 10px;
-  background-color: #ccc;
-  margin-top: 20px;
-}
-
-.loading-progress {
-  width: 0;
-  height: 100%;
-  background-color: #3498db;
-  transition: width 0.3s ease-in-out;
-}
-
-#start {
-  display: none;
-}
 
 body {
   background-color: #f4f3ee;
