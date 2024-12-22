@@ -271,59 +271,70 @@ div.projects-wrapper {
   background-color: #463f3a;
   left: 0;
   right: 0;
-  height: 100vh;
+  padding: 50px 0;
 }
+div.projects-wrapper a {
+  color: #f4f3ee;
+  left: 0;
+  right: 0;
+  padding: 50px 0;
+}
+
+div.projects-wrapper a:hover {
+  color: #f4f3ee;
+  left: 0;
+  right: 0;
+  padding: 50px 0;
+}
+
 
 div.projects-header {
   text-align: center;
   color: #f4f3ee;
   font-size: 30px;
+  margin-bottom: 15px;
 }
 
 div.projects-header a {
-  text-align: center;
   color: #f4f3ee;
-  font-size: 30px;
   text-decoration: none;
 }
 
 div.projects-header a:hover {
-  text-align: center;
   color: #d4cfb7;
-  font-size: 30px;
-  text-decoration: none;
   transition: color 0.5s;
 }
 
-div.tejp-info {
+div.project-info {
   position: relative;
   text-align: center;
   color: #f4f3ee;
-  font-size: 20px;
-  margin: 15px 25% 0 25%;
+  font-size: 18px;
+  margin: 15px 20%;
+  margin-bottom: 30px;
 }
 
-.tejp-image-wrapper {
+div.project-info a:hover {
+    position: relative;
+    text-align: center;
+    color: #e0afa0;
+    font-size: 18px;
+    transition: color 0.5s;
+  
+}
+
+.project-image-wrapper {
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.tejp-image-wrapper a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-}
-
-.tejp-image-wrapper img {
+.project-image-wrapper img {
   border: solid #e0afa0 5px;
-  width: 100%;
+  width: 50%;
   height: auto;
   object-fit: contain;
-  display: flex;
-  
 }
 
 /* INTERESTS SECTION */
@@ -678,36 +689,29 @@ div.footer-wrapper {
     transition: color 0.5s;
   }
 
-  div.tejp-info {
+  div.project-info {
     position: relative;
     text-align: center;
-    color: #f4f3ee;
-    font-size: 15px;
+    color: #d4cfb7;
+    font-size: 20px;
     margin: 15px 5% 0 5%;
   }
-
-  .tejp-image-wrapper {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  div.project-info a{
+    position: relative;
+    text-align: center;
+    color: #d4cfb7;
+    font-size: 20px;
+    margin: 15px 5% 0 5%;
+  }
+  
+  div.project-info a:hover {
+    color: #463f3a; /* Change to a hover color of your choice */
+    transition: color 0.5s; /* Smooth transition effect */
   }
 
-  .tejp-image-wrapper a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-  }
 
-  .tejp-image-wrapper img {
-    border: solid #e0afa0 5px;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: flex;
-    
-  }
+
+
   /* INTERESTS SECTION */
   div.interests-wrapper {
     background-color: #f4f3ee;
