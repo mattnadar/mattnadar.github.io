@@ -513,391 +513,98 @@ div.footer-wrapper {
 }
 
 /* Mobile Formatting */
-
-@media only screen and (max-width: 767px) {
-
-  /* NavBar */
-  
-  ul {
-    margin-bottom: 20px;
-    margin-left: -25px;
-  }
-
-  nav {
-    background-color: #f4f3ee;
-    list-style: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-    
-  }
-
-  nav li {
-    display: inline-block;
-    flex: none;
-    border: transparent;
+@media (max-width: 768px) {
+  body {
     margin: 0;
+    padding: 0;
   }
 
-  nav li a {
-    color: #e0afa0;
-    position: relative;
-    font-size: 9px;
-    margin-bottom: 0;
-    text-decoration: none;
-    font-weight: bold;
-    white-space: nowrap;
+  .navLine {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center all items horizontally */
+    align-items: center; /* Center all items vertically */
   }
 
-  nav li a:hover {
-    color: #9f7c72;
-    transition: color 0.5s;
+  .navLine nav ul {
+    display: flex; /* Horizontal layout for nav items */
+    justify-content: center; /* Ensure all items are centered */
+    align-items: center; /* Vertical alignment */
+    padding: 0;
+    margin: 3% 0 3% 0; 
   }
 
-  div.navLine {
-    bottom: 0;
-    border-bottom: solid 2px #e0afa0;
-    margin: 0;
+  .navLine nav ul li {
+    margin: 0 5px; /* Smaller spacing between items for compact layout */
   }
 
-
-  /* First section of Page */
-  
-  div.opener {
-    background-color: #f4f3ee;
-    height: 100vh;
+  .navLine nav ul li a {
+    text-decoration: none; /* Remove underline */
+    font-size: clamp(10px, 2vw, 14px); /* Dynamically scale font size */
+    white-space: nowrap; /* Prevent wrapping */
+    padding: 2px 5px; /* Compact padding for links */
   }
+
   div.greeting {
-    color: #463f3a;
-    margin-top: 30px;
-    font-size: 30px;
-    text-align: center;
+    font-size: 40px; /* Reduce greeting text size */
   }
 
   div.intro {
-    text-align: center;
-    margin: 15px 5% 0 5%;
-    font-size: 15px;
-  }
-
-  .headshot {
-    margin: 25px 0 0 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    margin: 15px 10%; /* Reduce side margins for better fit */
+    font-size: 20px; /* Smaller font size */
   }
 
   .headshot img {
-    border: solid #e0afa0 5px;
-    border-radius: 10px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    width: 80%;
+    width: 90%; /* Make image responsive */
+    max-width: 300px;
   }
 
-  /* About Section */
-
-  div.aboutwrapper {
-    background-color: #463f3a;
-    left: 0;
-    right: 0;
-    height: 100vh;
-  }
-
-  div.about-info {
-    color: #f4f3ee;
-    text-align: center;
-    margin: 0px 5% 0 5%;
-    font-size: 15px;
-  }
-
-  h2 {
-    padding-top: 25px;
-    text-align: center;
-    color:#f4f3ee;
-    font-size: 40px;
-  }
-
-
-  /* Skills Section */
-  div.skillwrapper {
-    background-color: #f4f3ee;
-    left: 0;
-    right: 0;
-    height: 100vh;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 40px;
-    color: #463f3a;
-  }
-
-  div.language-header, div.tools-header {
-    text-align: center;
-    color:#463f3a;
-    font-size: 20px;
-  }
-
-  div.skillslanguagewrapper {
-    display: flex;
-    justify-content: center;
-  }
-
-  div.logo {
-  margin: 20px;
-  text-align: center;
-  }
-
-  .logo img {
-    width: 20px;
-    height: 20px;
-  }
-
-  div.languages {
-    color: #f4f3ee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  div.language-info, div.tools-info {
-    color:#463f3a;
-    text-align: center;
-    font-size: 12px;
-  }
-
+  div.skillslanguagewrapper,
   div.tools {
-    color: #f4f3ee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column; /* Stack skills vertically */
   }
 
-
-  div.language-name, div.tool-name {
-    color: #463f3a;
-    font-size: 12px;
-   
-  }
-
-  div.languages-section,
-  div.tools-section {
-      flex-basis: 50%;
-      padding: 20px;
-  }
-  /* Projects Section */
-
-  div.projects-wrapper {
-    background-color: #463f3a;
-    left: 0;
-    right: 0;
-    height: 100vh;
-  }
-
-  div.projects-header {
-    text-align: center;
-    color: #f4f3ee;
-    font-size: 30px;
-  }
-
-  div.projects-header a {
-    text-align: center;
-    color: #f4f3ee;
-    font-size: 30px;
-    text-decoration: none;
-  }
-
-  div.projects-header a:hover {
-    text-align: center;
-    color: #d4cfb7;
-    font-size: 30px;
-    text-decoration: none;
-    transition: color 0.5s;
+  div.language-info,
+  div.tools-info {
+    font-size: 16px; /* Reduce font size for skill descriptions */
   }
 
   div.project-info {
-    position: relative;
-    text-align: center;
-    color: #d4cfb7;
-    font-size: 20px;
-    margin: 15px 5% 0 5%;
+    margin: 15px 5%; /* Reduce side margins for projects */
+    font-size: 16px; /* Smaller font size */
   }
-  div.project-info a{
-    position: relative;
-    text-align: center;
-    color: #d4cfb7;
-    font-size: 20px;
-    margin: 15px 5% 0 5%;
-  }
-  
-  div.project-info a:hover {
-    color: #463f3a; /* Change to a hover color of your choice */
-    transition: color 0.5s; /* Smooth transition effect */
+
+  .project-image-wrapper img {
+    width: 100%; /* Full width for images */
+    max-width: 400px; /* Restrict maximum size */
   }
 
 
+ 
+/* Paragraph Text Styling */
+div.about-info {
+  font-size: 1.2rem;
+  line-height: 1.6; /* Improves readability */
+  display: flex;
+  justify-content: center;
+  margin: 0 5% 0 5%;
+}
 
-
-  /* INTERESTS SECTION */
-  div.interests-wrapper {
-    background-color: #f4f3ee;
-    left: 0;
-    right: 0;
-    height: 100vh;
-  }
-
-  div.colorguard-header {
-    text-align: center;
-    color: #463f3a;
-    font-size: 30px;
-  }
-
-  div.colorguard-info {
-    position: relative;
-    text-align: center;
-    color: #463f3a;
-    font-size: 20px;
-    margin: 15px 5% 0 5%;
-  }
-
-
-  div.colorguard-info a {
-    position: relative;
-    text-align: center;
-    color: #463f3a;
-    font-weight: bolder;
-    font-size: 20px;
-    margin-top: 15px;
-    text-decoration: none;
-  }
-
-
-  div.colorguard-info a:hover {
-    position: relative;
-    text-align: center;
-    color: #e0afa0;
-    transition: color 0.5s;
-    font-size: 20px;
-    margin-top: 15px;
-    text-decoration: none;
-  }
-
-  div.colorguard-embed {
-    display: flex;
-    margin: 30px 5% 0px 5%;
-    align-items: center;
-    justify-content: center;
-  }
-
-  div.music-header {
-    margin-top: 25px;
-    text-align: center;
-    color: #463f3a;
-    font-size: 30px;
-  }
-
-  div.music-info {
-    position: relative;
-    text-align: center;
-    color: #463f3a;
-    font-size: 20px;
-    margin: 15px 5% 0 5%;
-  }
-
-  div.music-info a {
-    position: relative;
-    text-align: center;
-    color: #463f3a;
-    font-weight: bolder;
-    font-size: 20px;
-    margin-top: 15px;
-    text-decoration: none;
-  }
-
-
-  div.music-info a:hover {
-    position: relative;
-    text-align: center;
-    color: #e0afa0;
-    transition: color 0.5s;
-    font-size: 20px;
-    margin-top: 15px;
-    text-decoration: none;
-  }
-  div.trumpet-wrapper {
-    margin-top: 20px;
-    justify-content: center;
-    display: flex;
-  }
-
-  div.trumpet-wrapper img {
-    width: 330px;
-    height: 500px;
-    border-radius: 10px;
-    border: solid #e0afa0 5px;
-  }
-
-  /* FOOTER */
+/* Relevant Coursework Styling */
+div.relevant-coursework h3 {
+  font-size: 1.5rem; /* Smaller heading size */
+  margin-bottom: 0px; /* Reduce spacing below the heading */
+}
 
   div.footer-wrapper {
-    background-color: #463f3a;
-    margin-top: 20px;
-    height: 75px;
-    left: 0;
-    right: 0;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer-wrapper a {
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    margin: 0 20px;
-
+    flex-direction: column; /* Stack footer content */
+    height: auto;
+    padding: 20px 0;
   }
 
   .footer-wrapper img {
-    margin-top: 10px;
-    width: 30px;
-    height: 30px;
-    height: auto;
-    object-fit: contain;
-    display: flex;
-    text-align: center;
-
+    margin: 5px; /* Add spacing between icons */
+    width: 25px; /* Adjust icon size */
+    height: 25px;
   }
 
-  .footer-wrapper img:hover {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    width: 30px;
-    height: 30px;
-    height: auto;
-    object-fit: contain;
-    display: flex;
-    transform: translateY(-30%);
-  }
-
-}
-
-/* KEYFRAMES */
-
-@keyframes bounce {
-
-  0%, 100% {
-    transform: translateY(0);
-
-  }
-  50% {
-    transform: translateY(-20px);
-  }
 }
